@@ -58,3 +58,10 @@ public class Example1 {
 
 //7. synchronized --> IllegalStateException
 // ReentrantLock --> ça marche!! :D
+// ReentrantLock --> lock completement ecrit en Java
+// synchronized --> Assembleur
+// ReentrantLock a été modifié pour que ça marche avec les continuations
+
+//9. Les threads et les continuations ont le meme but
+// Thread --> lent & géré par l'OS --> compétitif
+// Continuation --> géré par l'application --> coopératif
